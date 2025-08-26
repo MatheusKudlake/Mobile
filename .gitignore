@@ -1,1 +1,13 @@
-/**/node_modules
+# ignora tudo
+/*
+
+# não ignora pastas
+!*/
+
+# não ignora nenhuma pasta src em qualquer lugar
+!**/src/
+!**/src/**
+
+# não ignora app.js e index.js
+!App.js
+!index.js
